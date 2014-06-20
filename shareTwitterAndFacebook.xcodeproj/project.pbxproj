@@ -21,6 +21,8 @@
 		D66E4201194EF88F00BD629B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66E41E3194EF88F00BD629B /* UIKit.framework */; };
 		D66E4209194EF88F00BD629B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66E4207194EF88F00BD629B /* InfoPlist.strings */; };
 		D66E420B194EF88F00BD629B /* shareTwitterAndFacebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D66E420A194EF88F00BD629B /* shareTwitterAndFacebookTests.m */; };
+		D6703B5C194F029300F64136 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6703B5B194F029300F64136 /* Twitter.framework */; };
+		D6703B5E194F03A000F64136 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6703B5D194F03A000F64136 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D66E4206194EF88F00BD629B /* shareTwitterAndFacebookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shareTwitterAndFacebookTests-Info.plist"; sourceTree = "<group>"; };
 		D66E4208194EF88F00BD629B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D66E420A194EF88F00BD629B /* shareTwitterAndFacebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shareTwitterAndFacebookTests.m; sourceTree = "<group>"; };
+		D6703B5B194F029300F64136 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		D6703B5D194F03A000F64136 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6703B5E194F03A000F64136 /* Social.framework in Frameworks */,
+				D6703B5C194F029300F64136 /* Twitter.framework in Frameworks */,
 				D66E41E2194EF88F00BD629B /* CoreGraphics.framework in Frameworks */,
 				D66E41E4194EF88F00BD629B /* UIKit.framework in Frameworks */,
 				D66E41E0194EF88F00BD629B /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		D66E41DE194EF88F00BD629B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D6703B5D194F03A000F64136 /* Social.framework */,
+				D6703B5B194F029300F64136 /* Twitter.framework */,
 				D66E41DF194EF88F00BD629B /* Foundation.framework */,
 				D66E41E1194EF88F00BD629B /* CoreGraphics.framework */,
 				D66E41E3194EF88F00BD629B /* UIKit.framework */,
@@ -456,6 +464,7 @@
 				D66E4210194EF88F00BD629B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D66E4211194EF88F00BD629B /* Build configuration list for PBXNativeTarget "shareTwitterAndFacebookTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				D66E4213194EF88F00BD629B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
